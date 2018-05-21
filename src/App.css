@@ -31,11 +31,12 @@
   margin: 0 0.5em;
 }
 
-.App-external-item a {
+.App-external-item a svg {
   color: black;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.App-external-item a:hover {
+.App-external-item a:hover svg{
   color: purple;
+  transform: scale(1.4);
 }
