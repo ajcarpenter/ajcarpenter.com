@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/fontawesome-free-brands'
+import { faGithub, faTwitter, faFacebook, faInstagram, faLinkedin, faSoundcloud } from '@fortawesome/fontawesome-free-brands'
 
 class App extends Component {
   render() {
@@ -35,6 +35,11 @@ class App extends Component {
           <li className="App-external-item">
             <a href="https://www.linkedin.com/in/andrew-carpenter-24450b14/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li className="App-external-item">
+            <a href="https://soundcloud.com/ajcarpenter" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faSoundcloud} />
             </a>
           </li>
         </ul>
