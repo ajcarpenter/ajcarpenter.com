@@ -12,8 +12,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app-header">
-          <h1 className="app-title">@ajcarpenter</h1>
+        <header className="app__header">
+          <h1 className="app__title">@ajcarpenter</h1>
         </header>
         <Socials items={ socialsData } />
 

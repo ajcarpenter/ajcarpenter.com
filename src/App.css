@@ -3,13 +3,13 @@
 }
 
 
-.app-header {
+.app__header {
   background-color: #222;
   padding: 20px;
   color: white;
 }
 
-.app-title {
+.app__title {
   font-size: 2.5em;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -17,34 +17,16 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .app-title {
+  .app__title {
     font-size: 3.5em;
   }
 }
 
-.app-intro {
+.app__intro {
   font-size: large;
 }
 
 
-.app-external {
-  font-size: 2em;
-  list-style: none;
-  margin: 1em 0;
-  padding: 0;
-}
 
-.app-external-item {
-  display: inline-block;
-  margin: 0 0.5em 0.5em 0.5em;
-}
 
-.app-external-item a svg {
-  color: black;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
 
-.app-external-item a:hover svg{
-  color: purple;
-  transform: scale(1.4);
-}
