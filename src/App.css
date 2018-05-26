@@ -1,15 +1,15 @@
-.App {
+.app {
   text-align: center;
 }
 
 
-.App-header {
+.app-header {
   background-color: #222;
   padding: 20px;
   color: white;
 }
 
-.App-title {
+.app-title {
   font-size: 2.5em;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -17,34 +17,34 @@
 }
 
 @media only screen and (min-width: 800px) {
-  .App-title {
+  .app-title {
     font-size: 3.5em;
   }
 }
 
-.App-intro {
+.app-intro {
   font-size: large;
 }
 
 
-.App-external {
+.app-external {
   font-size: 2em;
   list-style: none;
   margin: 1em 0;
   padding: 0;
 }
 
-.App-external-item {
+.app-external-item {
   display: inline-block;
   margin: 0 0.5em 0.5em 0.5em;
 }
 
-.App-external-item a svg {
+.app-external-item a svg {
   color: black;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.App-external-item a:hover svg{
+.app-external-item a:hover svg{
   color: purple;
   transform: scale(1.4);
 }

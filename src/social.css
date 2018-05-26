@@ -1,0 +1,14 @@
+.social {
+  display: inline-block;
+  margin: 0 0.5em 0.5em 0.5em;
+}
+
+.social__link svg {
+  color: black;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social__link:hover svg{
+  color: purple;
+  transform: scale(1.4);
+}
