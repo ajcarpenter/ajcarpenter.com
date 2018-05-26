@@ -4,7 +4,7 @@ import React from "react";
 import "./project.css";
 
 export default ({ url, name, isLive, thumbnail, categoryIcon, description }) => (
-	<li className="project">
+	<li className={`project ${ isLive ? '' : 'project--coming-soon' }`}>
 		<a
 			className="project__card"
 			href={url}
