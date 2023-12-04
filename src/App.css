@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.app__headshot {
+  max-width: 350px;
+  filter: grayscale(100%);
+}
+
 @media only screen and (min-width: 800px) {
   .app__title {
     font-size: 3.5em;
